@@ -1,0 +1,23 @@
+---
+title: "Exercise-02b"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+This one I used my credentials in R to create the GitHub repository this Quarto was made from :)
+
+Here is what I did: start with library(usethis) and then create_github_token() to make your PAT
+
+Then go back to RStudio to enter it using: library(gitcreds) and gitcreds_set(). This will prompt you to paste your PAT you just made.
+
+To make the Github repo, use library(usethis) and use-github().
+
+Ta da! You've now made a repo that pushed itself onto Git :)
+
+Now you have made your repo on GitHub! :D
